@@ -1,5 +1,6 @@
 import React, { useContext, useState } from "react";
 import { Link } from "react-router-dom";
+import { FaShoppingCart ,FaSearch } from "react-icons/fa";
 
 import {
   BsFacebook,
@@ -118,36 +119,59 @@ const Navbar = () => {
                 </div>
               </Link>
             </li>
+            <li>
+              <Link to="/check_out" className="nav-links" onClick={closeMobileMenu}>
+                <div style={{ display: "flex", alignItems: "center" }}>
+                  <span>Check Out</span>
+                </div>
+              </Link>
+            </li>
             
 
-            <li>
+            <li style={{
+              width:200
+            }}></li>
+
+            <div
+            
+            
+          
+            
+            className="nav_social_icons hide-on-med-and-down">
+            
+ <li>
               <Link
                 to="/contact"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
                 <div style={{ display: "flex", alignItems: "center" }}>
-                  <span>Contact Us</span>
+                  <span  style={{
+                    position:"relative"
+                  }}>
+                  <span style={{
+                    position:"absolute",
+                    top:-15,
+                    left:-10,
+                    
+                    
+                  }}>
+                  <CartHighLight/>
+                  </span>
+                  
+                  <FaShoppingCart size={20} />
+                  </span>
                 </div>
               </Link>
             </li>
 
-            <div className="nav_social_icons hide-on-med-and-down">
-              <span>
-                <BsFacebook color="#000" size={20} />
-              </span>
+
 
               <span>
-                <FaTwitter color="#000" size={20} />
+               <FaSearch color="#000" size={20} />
               </span>
 
-              <span>
-                <BsInstagram color="#000" size={20} />
-              </span>
-
-              <span>
-                <BsLinkedin color="#000" size={20} />
-              </span>
+            
             </div>
           </ul>
         </div>
@@ -157,3 +181,19 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
+
+
+const CartHighLight = ()=>{
+return(
+  <>
+  <span style={{
+    background:'coral',
+    color:"#fff",
+    padding:1,
+    borderRadius:'20%'
+  }}>0</span>
+  </>
+)
+}

@@ -8,6 +8,7 @@ import ContactPage from './Page/ContactPage/ContactPage'
 import ShopPage from './Page/ShopPage/ShopPage'
 import ProductDetails from './Page/ProductDetails/ProductDetails'
 import ScrollToTop from './lib/ScrollToTop/ScrollToTop'
+import CheckOutPage from './Page/CheckOutPage/CheckOutPage'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
     <Route path='/contact' element={<ContactPage/>} />
     <Route path='/shop' element={<ShopPage/>} />
     <Route path='/item/:id' element={<ProductDetails/>} />
+    <Route path='/check_out' element={<CheckOutPage/>} />
     </Routes>
     <Footer/> 
     </BrowserRouter>

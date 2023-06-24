@@ -48,14 +48,14 @@ function MedCards() {
                  <div className="row">
                  <div className="col l6">
                  <div>
-                 <Link to='/'>
+                 <Link className='select_btn' to='/'>
                  select Options
                  </Link>
                  </div>
                  </div>
                  <div className="col l6">
                  <div>
-                 <h4>{item?.price}</h4>
+                 <h4 className='price_range'>{item?.price}</h4>
                  </div>
                  </div>
                  </div>

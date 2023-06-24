@@ -34,23 +34,23 @@ const Carousel = () => {
     {
       id: 1,
       title: "ADDERALL",
-      desc: "Pharma Meds Care main Drugs are Adderall, Oxy, Percocet, Erimin, Rivotril, Roxy ,Suboxone & Xanax.",
+      desc: "Pharma Meds Care main Drugs are Adderall, Oxy, Percocet, Erimin, Rivotril, Roxy ,Suboxone & Xanax",
       side: One,
       bg: "#094c59",
       btnBg: "#ffe799",
     },
     {
       id: 2,
-      title: "50% Off For Your First Shopping",
-      desc: "Classic! That’s how one would describe you when you are dressed in a sports T-shirt and a pair of striped chinos. To complete this look, you can opt for a pair of white sports shoes or a pair of brown boat shoes.",
+      title: "PERCOCET",
+      desc: "Pharma Meds Care main Drugs are Adderall, Oxy, Percocet, Erimin, Rivotril, Roxy ,Suboxone & Xanax.",
       side: Two,
       bg: "#080713",
       btnBg: "#ffe799",
     },
     {
       id: 3,
-      title: "The World’s Most Comfortable Shoes",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
+      title: "SUBOXONE",
+      desc: "Pharma Meds Care main Drugs are Adderall, Oxy, Percocet, Erimin, Rivotril, Roxy ,Suboxone & Xanax",
       side: Three,
       bg: "#011e32",
       btnBg: "#ffe799",
@@ -103,11 +103,11 @@ const Carousel = () => {
                     </div>
                     <div className="col l5 hide-on-med-and-down">
                       <div className="right">
-                        <img
+                       {/* <img
                           className="responsive-img"
                           src={value.side}
                           alt=""
-                        />
+                        />*/}
                       </div>
                     </div>
                   </div>
