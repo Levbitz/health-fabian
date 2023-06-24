@@ -8,6 +8,7 @@ import Two from "../../lib/assets/sliders/banner2.jpeg";
 import Three from "../../lib/assets/sliders/banner2.jpeg";
 import Four from "../../lib/assets/sliders/banner2.jpeg";
 import "./Carosel.css";
+import { Link } from "react-router-dom";
 
 const Carousel = () => {
   const settings = {
@@ -22,11 +23,18 @@ const Carousel = () => {
     },
   };
 
+
+
+// 
+// 
+
+// PERCOCET
+// Pharma Meds Care main Drugs are Adderall, Oxy, Percocet, Erimin, Rivotril, Roxy ,Suboxone & Xanax.
   const Sdata = [
     {
       id: 1,
-      title: "50% Off on Trendy watches for changing times",
-      desc: "Make your time perfect with the perfect watch ,your wrist deserves the best thing to wear. Add one more to your expectation.",
+      title: "ADDERALL",
+      desc: "Pharma Meds Care main Drugs are Adderall, Oxy, Percocet, Erimin, Rivotril, Roxy ,Suboxone & Xanax.",
       side: One,
       bg: "#094c59",
       btnBg: "#ffe799",
@@ -65,7 +73,8 @@ const Carousel = () => {
             <>
               <div
                 style={{
-                  backgroundColor: value.bg,
+               //   backgroundColor: value.bg,
+                  backgroundImage: `url(${value.side})`,
                 }}
                 className="levbitz_slider_container "
                 key={index}
@@ -73,21 +82,23 @@ const Carousel = () => {
                 <div className="container">
                   <div className="row">
                     <div className="col l7">
-                      <div className="left">
+                      <div style={{
+                        background:"#c4909040",
+                        padding:"10px",
+                        borderRadius:'10px'
+                      }} className="left">
                         <h2 className="white-text">{value.title}</h2>
                         <p className="white-text">{value.desc}</p>
-                        <button
-                          style={{
-                            backgroundColor: value.btnBg,
-                            borderRadius: 3,
-
-                            fontSize: 13,
-                            fontWeight: 800,
-                          }}
-                          className="btn black-text"
+                        <Link
+                       
+                           to='/' 
+                           style={{
+                            fontWeight:"bold"
+                           }}
+                          className="btn z-depth-0"
                         >
-                          Visit Collections
-                        </button>
+                          Buy Now
+                        </Link>
                       </div>
                     </div>
                     <div className="col l5 hide-on-med-and-down">
