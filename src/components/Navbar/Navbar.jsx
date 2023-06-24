@@ -72,7 +72,7 @@ const Navbar = () => {
             <img
               onClick={() => setIsOpen(false)}
               className="white"
-              width={150}
+              width={100}
               src={Logo}
               alt=""
             />
@@ -108,6 +108,13 @@ const Navbar = () => {
               <Link to="/about" className="nav-links" onClick={closeMobileMenu}>
                 <div style={{ display: "flex", alignItems: "center" }}>
                   <span>About</span>
+                </div>
+              </Link>
+            </li>
+            <li>
+              <Link to="/shop" className="nav-links" onClick={closeMobileMenu}>
+                <div style={{ display: "flex", alignItems: "center" }}>
+                  <span>Shop</span>
                 </div>
               </Link>
             </li>

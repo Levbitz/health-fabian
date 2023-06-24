@@ -9,7 +9,7 @@ uri:"/about"
     },
     {
 name:"All Shop",
-uri:"/about"
+uri:"/shop"
     },
     {
 name:"Checkout",
