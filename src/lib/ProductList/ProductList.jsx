@@ -13,7 +13,7 @@ export const products = [
       count: 1,
     },
     {
-      _id: "adderall",
+      _id: "xanax",
       title: "Xanax",
       category: "recent",
       src: "https://www.pharmamedscare.com/wp-content/uploads/2023/01/xanax.jpg",
@@ -27,7 +27,7 @@ export const products = [
     },
    
     {
-      _id: "adderall",
+      _id: "suboxone",
       title: "Suboxone",
       category: "recent",
       src: "https://www.pharmamedscare.com/wp-content/uploads/2023/01/Suboxone.jpg",
@@ -41,7 +41,7 @@ export const products = [
       count: 1,
     },
     {
-      _id: "adderall",
+      _id: "roxicodene",
       title: "Roxicodone",
       category: "recent",
       src: "https://www.pharmamedscare.com/wp-content/uploads/2023/01/Roxy.jpg",
@@ -55,7 +55,7 @@ export const products = [
       count: 1,
     },
     {
-      _id: "adderall",
+      _id: "percocet",
       title: "Percocet",
       category: "recent",
       src: "https://www.pharmamedscare.com/wp-content/uploads/2023/01/Percocet.jpg",
@@ -69,7 +69,7 @@ export const products = [
       count: 1,
     },
     {
-      _id: "adderall",
+      _id: "oxycodone",
       title: "Oxycodone",
       category: "recent",
       src: "https://www.pharmamedscare.com/wp-content/uploads/2023/01/Oxy.jpg",
