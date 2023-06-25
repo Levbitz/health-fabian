@@ -14,8 +14,14 @@ function ProductHighLights() {
    {products.map((product)=>{
     return(
         
-        <div>
-        <Link to='/'>
+        <div style={{
+          marginBottom:10
+        }}>
+        <Link style={{
+          color:"coral",
+          fontSize:16,
+         
+        }} to='/'>
         {product.title}
         </Link>
         </div>

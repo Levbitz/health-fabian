@@ -11,14 +11,14 @@ function ShopPage() {
     name={"shop"}
     />
     
-    <div className="container">
+    <div className="">
     <div className="row">
-    <div className="col l3">
+    <div className="col l2 offset-l1">
     <div>
     <ProductHighLights/>
     </div>
     </div>
-    <div className="col l9">
+    <div className="col l9 ">
     <div>
     <ProductListings/>
     </div>
